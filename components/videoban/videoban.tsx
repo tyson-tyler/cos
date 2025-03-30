@@ -25,11 +25,11 @@ const Videoban = () => {
           A SMART WORKOUT APP
         </p>
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight">
-          Find out why 1M+ people train with the BuildHub fitness app
+          Find out why 1M people train with the BuildHub fitness app
         </h1>
         <p className="flex items-center text-base sm:text-lg md:text-2xl font-semibold mt-4">
           <Star className="text-yellow-400 w-5 sm:w-6 h-5 sm:h-6 mr-2" /> 5600
-          5-star reviews
+          5star reviews
         </p>
       </div>
     </div>
