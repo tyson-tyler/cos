@@ -47,8 +47,6 @@ const SketchfabEmbed = () => {
           title="Stylized Female Fighting Character - Viktoria"
           frameBorder="0"
           allowFullScreen
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
           allow="autoplay; fullscreen; xr-spatial-tracking"
           width="640"
           height="480"
