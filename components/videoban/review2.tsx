@@ -19,7 +19,7 @@ const reviews = [
     username: "@johndoe",
     image: "https://heroui.com/avatars/avatar-2.png",
     description:
-      "Full-stack engineer and tech blogger. Let&aposs build the web together!",
+      "Full-stack engineer and tech blogger. Let's build the web together!",
     following: 10,
     followers: "120K",
   },
@@ -119,16 +119,16 @@ const reviews = [
 
 export default function Review2() {
   return (
-    <div className="min-h-screen bg-gray-50 mt-9 mb-12">
-      <h1 className="text-6xl text-center font-semibold text-black mt-12 mb-9 pt-[120px] dela-gothic-one-regular ">
-        Reviews from our satisfied <br />
-        Daily Members and Users
+    <div className="min-h-screen bg-gray-50 mt-9 mb-12 px-4 sm:px-6 lg:px-8 pb-9">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-semibold text-black mt-12 mb-9 pt-[120px] dela-gothic-one-regular">
+        Reviews from our satisfied <br className="hidden sm:block" /> Daily
+        Members and Users
       </h1>
-      <div className="container mx-auto max-w-7xl pt-6 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="container mx-auto max-w-7xl pt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {reviews.map((review, index) => (
           <Card
             key={index}
-            className="max-w-[340px] transition hover:scale-105 cursor-pointer h-[200px] mx-auto"
+            className="w-full max-w-sm transition-transform hover:scale-105 cursor-pointer mx-auto"
           >
             <CardHeader className="justify-between">
               <div className="flex gap-5">
@@ -146,7 +146,7 @@ export default function Review2() {
                 Follow
               </Button>
             </CardHeader>
-            <CardBody className="px-3 py-0 text-small text-default-400">
+            <CardBody className="px-3 py-2 text-small text-default-400">
               <p>{review.description}</p>
             </CardBody>
             <CardFooter className="gap-3">
@@ -154,7 +154,7 @@ export default function Review2() {
                 <p className="font-semibold text-default-400 text-small">
                   {review.following}
                 </p>
-                <p className=" text-default-400 text-small">Following</p>
+                <p className="text-default-400 text-small">Following</p>
               </div>
               <div className="flex gap-1">
                 <p className="font-semibold text-default-400 text-small">
@@ -166,7 +166,7 @@ export default function Review2() {
           </Card>
         ))}
       </div>
-      <div className="flex justify-center items-center w-full mb-[40px] pb-[40px] mt-7">
+      <div className="flex justify-center items-center w-full mb-10 mt-7">
         <Button size="lg" radius="full" variant="solid" color="primary">
           More Reviews
         </Button>

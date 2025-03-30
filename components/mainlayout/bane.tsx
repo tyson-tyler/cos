@@ -5,11 +5,11 @@ import { Avatar, AvatarGroup } from "@heroui/avatar";
 
 const Bane = () => {
   return (
-    <div className="flex justify-center gap-[-10px]  items-center">
+    <div className="flex lg:flex-row flex-col justify-center gap-[-10px]  items-center">
       <SwiperComponent />
       <div>
-        <div className=" w-[410px] h-[151px]">
-          <span className="text-lg text-gray-400">
+        <div className="mb-[80px] lg:mb-0 lg:w-[410px]  mt-6 lg:mt-0 h-[151px]">
+          <span className="lg:text-lg md:text-sm text-xs  px-3 lg:px-0 text-gray-400">
             Our BuildHub Offer alot of Building your Body Features that you to
             get In your dream body shape . Also improve you confidence and help
             you see your self How you want. Join us and see the how your life

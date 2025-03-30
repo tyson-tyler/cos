@@ -9,8 +9,22 @@
   font-style: normal;
 }
 .swiper {
-  width: 470px;
-  height: 670px;
+  width: 200px;
+  height: 400px;
+}
+
+@media (min-width: 640px) {
+  .swiper {
+    width: 200px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper {
+    width: 470px;
+    height: 670px;
+  }
 }
 
 .swiper-slide {

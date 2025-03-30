@@ -7,7 +7,7 @@ export default function FitnessApp() {
         <p className="text-gray-500 uppercase tracking-widest text-sm font-semibold">
           Unprecedented Customization
         </p>
-        <h1 className="text-7xl font-bold mt-4 text-black leading-tight">
+        <h1 className="lg:text-7xl md:text-5xl text-3xl font-bold mt-4 text-black leading-tigh">
           Fitness for every body.
           <br /> Anytime. Anywhere.
         </h1>
@@ -15,8 +15,8 @@ export default function FitnessApp() {
           With Zing Coach, there is literally zero excuse to skip a workout.
           Tired? Zing Coach will tighten your timing. Traveling? Zing Coach will
           give you an awesome bodyweight blast. Done with Leg Day? Zing Coach
-          will boost your biceps instead. You&aposll even get workouts
-          automatically adjusted to the time of day—and that time of the month.
+          will boost your biceps instead. You'll even get workouts automatically
+          adjusted to the time of day—and that time of the month.
         </p>
         <button className="mt-6 bg-black  text-white text-lg font-semibold py-6 px-6 rounded-full">
           Get your workout plan now
@@ -24,34 +24,36 @@ export default function FitnessApp() {
       </div>
 
       <div className="relative mt-10 lg:mt-0 flex items-center justify-center">
-        <div className="relative w-[600px] h-[800px] bg-black rounded-3xl shadow-xl flex items-center justify-center overflow-hidden">
+        <div className="relative lg:w-[600px] md:w-[500px] md:h-[600px] w-[600px] h-[800px] lg:h-[800px] bg-black rounded-3xl shadow-xl flex items-center justify-center overflow-hidden">
           <div className="bg-gray-100 rounded-3xl shadow-lg text-black p-6 w-[90%] h-[90%] flex flex-col items-center">
             <p className="text-xl font-semibold text-black mb-4">
               Custom Workout
             </p>
             <div className="grid grid-cols-3 gap-4">
               {[
-                { name: "Shoulders", level: 100, image: "/shoulders.png" },
-                { name: "Biceps", level: 100, image: "/biceps.png" },
-                { name: "Triceps", level: 100, image: "/triceps.png" },
-                { name: "Back", level: 90, image: "/back.png" },
-                { name: "Chest", level: 100, image: "/chest.png" },
-                { name: "Abs", level: 90, image: "/abs.png" },
+                { name: "Shoulders", level: 100, image: "/1.jpg" },
+                { name: "Biceps", level: 100, image: "/2.png" },
+                { name: "Legs", level: 100, image: "/2.jpg" },
+                { name: "Back", level: 90, image: "/5.png" },
+                { name: "Chest", level: 100, image: "/4.png" },
+                { name: "Abs", level: 90, image: "/3.png" },
+                { name: "Abs", level: 90, image: "/3.png" },
+                { name: "Abs", level: 90, image: "/3.png" },
+                { name: "Abs", level: 90, image: "/3.png" },
               ].map((workout, index) => (
                 <div
                   key={index}
                   className="flex flex-col items-center bg-white p-3 rounded-lg shadow"
                 >
-                  <Image
-                    src={workout.image}
-                    alt={workout.name}
-                    width={50}
-                    height={50}
-                    className="mb-2"
-                  />
                   <div className="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
                     <span className="text-blue-500 text-2xl font-bold">
-                      {workout.level}%
+                      <Image
+                        src={workout.image}
+                        alt={workout.name}
+                        width={150}
+                        height={150}
+                        className="mb-2 rounded-full w-[130px] h-[130px]"
+                      />
                     </span>
                   </div>
                   <p className="mt-2 text-sm font-medium">{workout.name}</p>

@@ -2,34 +2,30 @@ import React from "react";
 
 const Line = () => {
   return (
-    <div className="w-full text-black h-[100px] flex justify-center gap-11 rounded-lg items-center mt-16 mb-6 bg-[#6563FF]">
-      <div className="flex justify-center items-center">
-        <h1 className="text-3xl font-semibold">Cardio</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-5xl text-white font-semibold text-center">☘︎</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-3xl font-semibold">Strenght</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-5xl text-white font-semibold text-center">☘︎</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-3xl font-semibold">Workout</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-5xl text-white font-semibold text-center">☘︎</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-3xl font-semibold">Diet</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-5xl text-white font-semibold text-center">☘︎</h1>
-      </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-3xl font-semibold">Yoga</h1>
-      </div>
+    <div className="w-full text-black h-auto flex flex-wrap justify-center gap-6 md:gap-11 rounded-lg items-center p-4 md:p-9 mt-16 mb-6 bg-[#6563FF]">
+      {[
+        "Cardio",
+        "☘︎",
+        "Strength",
+        "☘︎",
+        "Workout",
+        "☘︎",
+        "Diet",
+        "☘︎",
+        "Yoga",
+      ].map((item, index) => (
+        <div key={index} className="flex justify-center items-center">
+          <h1
+            className={`font-semibold text-center ${
+              item === "☘︎"
+                ? "lg:text-5xl text-sm text-white"
+                : "text-xl md:text-4xl"
+            }`}
+          >
+            {item}
+          </h1>
+        </div>
+      ))}
     </div>
   );
 };

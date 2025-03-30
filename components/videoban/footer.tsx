@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="https://flowbite.com/" className="flex items-center">
-              <Image
+              {/* <Image
                 src="https://flowbite.com/docs/images/logo.svg"
                 alt="FlowBite Logo"
                 width={32}
                 height={32}
                 className="h-8 me-3"
-              />
+              /> */}
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 BuildHub
               </span>
@@ -33,7 +33,7 @@ const Footer = () => {
                     href="https://flowbite.com/"
                     className="hover:underline"
                   >
-                    Flowbite
+                    BuildHub
                   </Link>
                 </li>
                 <li>
@@ -41,7 +41,7 @@ const Footer = () => {
                     href="https://tailwindcss.com/"
                     className="hover:underline"
                   >
-                    Tailwind CSS
+                    BuildHub
                   </Link>
                 </li>
               </ul>

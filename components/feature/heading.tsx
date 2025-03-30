@@ -4,37 +4,34 @@ import React from "react";
 
 const Heading2 = () => {
   return (
-    <div className="container mx-auto max-w-7xl pt-6 px-6 flex-grow">
-      <div className="flex justify-center text-left">
-        <h2 className="text-7xl text-center mt-7 mb-4 text-white dela-gothic-one-regular">
+    <div className="container mx-auto max-w-7xl pt-6 px-4 md:px-6 lg:px-8 flex-grow">
+      <div className="flex justify-center">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center mt-7 mb-4 text-white dela-gothic-one-regular">
           Our Feature
         </h2>
       </div>
-      <div className="text-2xl flex justify-around items-center mt-6 mb-5">
-        <h1 className="text-lg text-gray-400 w-[600px]">
-          Our BuildHub Give the Feature that you Need to start you Fitness Route
-          From Zero to Hero Level and Our Ai Trainer Help you guide you throw
-          this Route. Just Start it for Today. Join Now and become Fit
+      <div className="flex flex-col md:flex-row justify-center items-center mt-6 mb-5 gap-6">
+        <h1 className="text-base sm:text-lg md:text-xl text-gray-400 max-w-lg text-center md:text-left">
+          Our BuildHub provides the features you need to start your fitness
+          journey from zero to hero. Our AI trainer will guide you through this
+          journey. Start today and become fit!
         </h1>
         <Button size="lg" color="primary">
-          Check All Feature
+          Check All Features
         </Button>
       </div>
 
-      <div className="grid w-full  grid-cols-2 gap-8 h-[800px] mt-16 ">
-        <div className="row-span-2 font-medium  bg-gray-400 rounded-md  text-3xl transition scale-100 hover:scale-105 text-center bottom-2 bga">
-          <h1 className="bottom-1 absolute  text-2xl px-5 mt-6 font-semibold  ">
-            Workout Plan
-          </h1>
+      <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-8 h-[800px] md:h-[800px] mt-16">
+        <div className="row-span-2 bga font-medium bg-gray-400 rounded-md text-2xl md:text-3xl transition  hover:scale-105 flex justify-center items-center p-6">
+          Workout Plan
         </div>
-        <div className="bg-gray-400 rounded-md bga1 transition scale-100 hover:scale-105">
-          <h1 className="bottom-2 absolute   text-2xl px-5 mt-6 font-semibold ">
-            Diet Plan
-          </h1>
+        <div className="bg-gray-400 bga1 rounded-md transition  hover:scale-105 flex justify-center items-center p-6">
+          <h1 className="text-xl md:text-2xl font-semibold">Diet Plan</h1>
         </div>
-        <div className="bg-slate-500 rounded-md bga2 transition scale-100 hover:scale-105">
-          <div className="bottom-1 right-4 z-50 absolute w-[50px]  text-black h-[50px]  mt-6 font-extrabold flex justify-center items-center bg-white rounded-md ">
-            <ArrowUpLeft className="w-16" />
+        <div className="bg-slate-500 bga2 rounded-md transition  hover:scale-105 relative flex justify-center items-center p-6">
+          <h1 className="text-xl md:text-2xl font-semibold">Mucsel Plan</h1>
+          <div className="absolute bottom-4 right-4 w-12 h-12 md:w-14 md:h-14 bg-white text-black rounded-md flex justify-center items-center">
+            <ArrowUpLeft className="w-8 md:w-10" />
           </div>
         </div>
       </div>

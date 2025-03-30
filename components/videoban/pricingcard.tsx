@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const PricingCard = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 justify-center pb-9">
+    <div className="grid grid-cols-1  lg:grid-cols-3 gap-6 justify-center pb-9">
       {/* Basic Plan */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className=" bg-white w-[500px] dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
+        className=" bg-white  dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
       >
         <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
           Basic Plan
@@ -38,7 +38,7 @@ const PricingCard = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        className="w-[500px] bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
+        className="w-[367px] bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
       >
         <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
           Pro Plan
@@ -68,7 +68,7 @@ const PricingCard = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="w-[500px]  bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
+        className=" bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden p-6 text-center border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-shadow"
       >
         <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
           Family Plan
