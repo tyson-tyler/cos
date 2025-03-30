@@ -31,7 +31,7 @@ const SketchfabEmbed = () => {
               With Zing Coach, there is literally zero excuse to skip a workout.
               Tired? Zing Coach will tighten your timing. Traveling? Zing Coach
               will give you an awesome bodyweight blast. Done with Leg Day? Zing
-              Coach will boost your biceps instead. You'll even get workouts
+              Coach will boost your biceps instead. You&aposll even get workouts
               automatically adjusted to the time of day—and that time of the
               month.
             </p>

@@ -9,7 +9,7 @@ const Endban = () => {
         className="w-full flex-col h-[700px] rounded-2xl bg-cover bg-center flex justify-center items-center relative"
         style={{
           backgroundImage:
-            "url('https://img.freepik.com/free-photo/woman-holding-weights-near-barbells_651396-1617.jpg?t=st=1743319686~exp=1743323286~hmac=551ee456dffe5f6b8a49cab37d54ac6b3f9da0bbc0e00b781e5647d97e824f4c&w=900')",
+            "url(&aposhttps://img.freepik.com/free-photo/woman-holding-weights-near-barbells_651396-1617.jpg?t=st=1743319686~exp=1743323286~hmac=551ee456dffe5f6b8a49cab37d54ac6b3f9da0bbc0e00b781e5647d97e824f4c&w=900&apos)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

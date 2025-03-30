@@ -15,8 +15,8 @@ export default function Workoutsection() {
           With Zing Coach, there is literally zero excuse to skip a workout.
           Tired? Zing Coach will tighten your timing. Traveling? Zing Coach will
           give you an awesome bodyweight blast. Done with Leg Day? Zing Coach
-          will boost your biceps instead. You'll even get workouts automatically
-          adjusted to the time of day—and that time of the month.
+          will boost your biceps instead. You&aposll even get workouts
+          automatically adjusted to the time of day—and that time of the month.
         </p>
         <button className="mt-6 bg-black  text-white text-lg font-semibold py-6 px-6 rounded-full">
           Get your workout plan now
