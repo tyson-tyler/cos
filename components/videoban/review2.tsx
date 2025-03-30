@@ -19,7 +19,7 @@ const reviews = [
     username: "@johndoe",
     image: "https://heroui.com/avatars/avatar-2.png",
     description:
-      "Full-stack engineer and tech blogger. Let's build the web together!",
+      "Full-stack engineer and tech blogger. Let&apos;s build the web together!",
     following: 10,
     followers: "120K",
   },
