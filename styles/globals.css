@@ -1,3 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.swiper {
+  width: 470px;
+  height: 670px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+  background-image: url("https://i.pinimg.com/736x/8c/5f/25/8c5f258f4cf75b74d3a23ec3eb9eb0f5.jpg");
+  transform: translate3d(-840px, 0px, 0px) rotateZ(-15deg) scale(1);
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+  background-image: url("https://i.pinimg.com/736x/f0/5a/a2/f05aa2cdea11ffd0c5f81e7ef8b51f4e.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+  background-image: url("https://i.pinimg.com/736x/b2/3b/fb/b23bfb060e77b1b4dafc9d2ebf03f555.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+  background-image: url("https://i.pinimg.com/736x/3e/95/c9/3e95c9d9dd9274205b8c92b8868d025e.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+  background-image: url("https://i.pinimg.com/736x/ba/38/3f/ba383fac42311bf2ecbffec211b247c4.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+  background-image: url("https://i.pinimg.com/736x/7f/b8/46/7fb846eeb3dd5abff2fb41eb73398159.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+  background-image: url("https://i.pinimg.com/736x/05/d9/bd/05d9bd1eea62a65c12d7784abac4dd76.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+  background-image: url("https://i.pinimg.com/736x/77/3c/b8/773cb860570d4dda22815f617c7666fd.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+  background-image: url("https://i.pinimg.com/736x/f1/20/0b/f1200be812c5f5f965836fc0179b6cf6.jpg");
+
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+  background-image: url("https://i.pinimg.com/736x/0c/a7/1d/0ca71d08f1478feedebf7d517aee0119.jpg");
+
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.bga {
+  background-image: url("https://i.pinimg.com/736x/2f/5b/6c/2f5b6ce64d988f76dd60387e9a6c09ca.jpg");
+  background-size: cover;
+}
+.bga1 {
+  background-image: url("https://i.pinimg.com/736x/ff/2d/6b/ff2d6b6829cc0d07d88b673d3dfeb050.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.bga2 {
+  background-image: url("https://i.pinimg.com/736x/12/d6/7b/12d67bde2053e1105deafceb4fc6a50a.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.gwa {
+  background-image: url("https://i.pinimg.com/736x/2a/03/6b/2a036b370d24685a1c64f487dbd0b0c7.jpg");
+  background-size: contain;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+html {
+  scroll-behavior: smooth;
+}
