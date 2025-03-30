@@ -18,15 +18,15 @@ const SwiperComponent = () => {
       modules={[EffectCards, Autoplay]}
       className="mySwiper"
     >
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
-      <SwiperSlide></SwiperSlide>
+      <SwiperSlide>1</SwiperSlide>
+      <SwiperSlide>2</SwiperSlide>
+      <SwiperSlide>3</SwiperSlide>
+      <SwiperSlide>4</SwiperSlide>
+      <SwiperSlide>5</SwiperSlide>
+      <SwiperSlide>6</SwiperSlide>
+      <SwiperSlide>7</SwiperSlide>
+      <SwiperSlide>8</SwiperSlide>
+      <SwiperSlide>9</SwiperSlide>
     </Swiper>
   );
 };
