@@ -53,9 +53,9 @@ export default function Home() {
       {/* <div className="mt-[40px] mb-[20px]">
         <Teams />
       </div> */}
-      {/* <div>
+      <div>
         <NewVideoban />
-      </div> */}
+      </div>
       <div>
         <Endban />
       </div>
